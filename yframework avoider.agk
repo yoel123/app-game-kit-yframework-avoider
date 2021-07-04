@@ -57,10 +57,10 @@ FILE_5=menu_world.agc;-1
 [files]
 FILE_NAME_0=1;main.agc;973;0
 FILE_NAME_1=0;yengine2d.agc;4645;1
-FILE_NAME_2=0;player.agc;425;2
-FILE_NAME_3=0;baddy.agc;631;3
-FILE_NAME_4=0;game_world.agc;936;4
-FILE_NAME_5=0;menu_world.agc;492;5
+FILE_NAME_2=0;player.agc;178;2
+FILE_NAME_3=0;baddy.agc;393;3
+FILE_NAME_4=0;game_world.agc;585;4
+FILE_NAME_5=0;menu_world.agc;696;5
 
 [project]
 description=

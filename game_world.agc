@@ -41,7 +41,7 @@ function game_update()
 	 print("points: "+str(points))
 	 
 	 
-	 //if game over
+	 /////////if game over////////
 	 if game_over = 1
 		 print("game over")
 		 //if current score is better then best score
@@ -58,7 +58,8 @@ function game_update()
 		 //if screen touched go to menu
 		 if ( GetPointerPressed ( ) = 1 ) then changeworld("menu")
 	 endif
-	 //if not game over
+	 
+	 ///////if not game over///////
 	 if game_over = 0
 		 inc points
 		spawn_baddy()
@@ -67,9 +68,10 @@ endfunction
 
 
 function spawn_baddy()
-	
+	//timer done
 	if is_done_ytimer("baddy_spawn_timer",1)
 		
+		//spawn top or left side
 		if random(1,10) >5
 			newBaddy(random(0,50),random(0,500))
 		else

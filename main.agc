@@ -37,7 +37,6 @@ game_init()
 
 
 //db
-
 global ydata as integer[]
 
 changeworld("menu")
